@@ -1,0 +1,18 @@
+@Html.DevExpress().CallbackPanel(settings => {
+    settings.Name = "CallbackPanel";
+    settings.CallbackRouteValues = new {
+        Controller = "Home",
+        Action = "CallbackPanelPartial"
+    };
+
+    settings.SetContent(() => {
+        if (Session[E5101.Controllers.PdfViewerController.SESSION_KEY] != null) {
+            Html.RenderAction("Preview", "PdfViewer");
+        }
+        else {
+            Html.RenderAction("PreviewByFileName", "PdfViewer", new {
+                PdfFileName = @"~/FallCatalog.pdf"
+            });
+        }
+    });
+}).GetHtml()
