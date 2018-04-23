@@ -1,0 +1,19 @@
+@using E5101.Models;
+@model List<PdfPageModel>
+
+@Html.DevExpress().DataView(settings => {
+    settings.Name = "DocumentView";
+    settings.CallbackRouteValues = new {
+        Controller = "PdfViewer",
+        Action = "DocumentViewPartial"
+    };
+    settings.SettingsTableLayout.RowsPerPage = 1;
+    settings.SettingsTableLayout.ColumnCount = 1;
+    settings.PagerSettings.AllButton.Visible = true;
+    settings.SetItemTemplateContent(c => {
+        PdfPageModel pageModel = c.DataItem as PdfPageModel;
+        Html.DevExpress().BinaryImage(imageSettings => {
+            imageSettings.Name = "bimPdfPage" + pageModel.PageNumber;
+        }).Bind(pageModel.GetPageImageBytes()).Render();
+    });
+}).Bind(Model).GetHtml()
