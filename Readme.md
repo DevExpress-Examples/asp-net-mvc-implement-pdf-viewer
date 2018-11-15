@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/E5101/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E5101/Controllers/HomeController.vb))
+* **[PdfViewerController.cs](./CS/E5101/Controllers/PdfViewerController.cs) (VB: [PdfViewerController.vb](./VB/E5101/Controllers/PdfViewerController.vb))**
+* [PdfPageModel.cs](./CS/E5101/Models/PdfPageModel.cs) (VB: [PdfPageModel.vb](./VB/E5101/Models/PdfPageModel.vb))
+* [_CallbackPanelPartial.cshtml](./CS/E5101/Views/Home/_CallbackPanelPartial.cshtml)
+* [Index.cshtml](./CS/E5101/Views/Home/Index.cshtml)
+* [_DocumentViewPartial.cshtml](./CS/E5101/Views/PdfViewer/_DocumentViewPartial.cshtml)
+* [_PdfViewerPartial.cshtml](./CS/E5101/Views/PdfViewer/_PdfViewerPartial.cshtml)
+<!-- default file list end -->
 # How to implement a simple PDF viewer in ASP.NET MVC web application by using the Document Server functionality
 
 
