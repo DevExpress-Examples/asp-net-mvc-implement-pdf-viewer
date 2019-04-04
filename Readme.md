@@ -3,7 +3,7 @@
 
 * [HomeController.cs](./CS/E5101/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E5101/Controllers/HomeController.vb))
 * [PdfViewerController.cs](./CS/E5101/Controllers/PdfViewerController.cs) (VB: [PdfViewerController.vb](./VB/E5101/Controllers/PdfViewerController.vb))
-* [Global.asax](./CS/E5101/Global.asax) (VB: [Global.asax.vb](./VB/E5101/Global.asax.vb))
+* [Global.asax](./CS/E5101/Global.asax) (VB: [Global.asax](./VB/E5101/Global.asax))
 * [Global.asax.cs](./CS/E5101/Global.asax.cs) (VB: [Global.asax.vb](./VB/E5101/Global.asax.vb))
 * [PdfPageModel.cs](./CS/E5101/Models/PdfPageModel.cs) (VB: [PdfPageModel.vb](./VB/E5101/Models/PdfPageModel.vb))
 * [AjaxLogin.js](./CS/E5101/Scripts/AjaxLogin.js) (VB: [AjaxLogin.js](./VB/E5101/Scripts/AjaxLogin.js))
