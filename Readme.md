@@ -12,6 +12,9 @@
 * [modernizr-2.0.6-development-only.js](./CS/E5101/Scripts/modernizr-2.0.6-development-only.js) (VB: [modernizr-2.0.6-development-only.js](./VB/E5101/Scripts/modernizr-2.0.6-development-only.js))
 <!-- default file list end -->
 # How to implement a simple PDF viewer in ASP.NET MVC web application by using the Document Server functionality
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5101)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to implement a custom web PDF viewer control by using the DevExpress Document Server functionality.</p><br />
