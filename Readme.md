@@ -10,6 +10,9 @@
 * [_PdfViewerPartial.cshtml](./CS/E5101/Views/PdfViewer/_PdfViewerPartial.cshtml)
 <!-- default file list end -->
 # How to implement a simple PDF viewer in ASP.NET MVC web application by using the Office File API functionality
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5101)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to implement a custom web PDF viewer control by using the Office File API functionality.</p><br />
