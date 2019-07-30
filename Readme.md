@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to implement a simple PDF viewer in ASP.NET MVC web application by using the Office File API functionality
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5101)**
+**[[Run Online]](https://codecentral.devexpress.com/e5101/)**
 <!-- run online end -->
 
 
