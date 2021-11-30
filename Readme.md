@@ -5,7 +5,9 @@
 <!-- default badges end -->
 # PDF Document API for ASP.NET MVC - How to implement a PDF viewer
 
-This example demonstrates how to use the [Office File API](https://docs.devexpress.com/OfficeFileAPI/14911/office-file-api) and [ASP.NET MVC Extensions](https://docs.devexpress.com/AspNetMvc/7896/aspnet-mvc-extensions) to implement a custom PDF viewer. This PDF viewer displays a PDF document's content and allows users to navigate through document pages.
+This example demonstrates how to use the [Office File API](https://docs.devexpress.com/OfficeFileAPI/14911/office-file-api) and [ASP.NET MVC Extensions](https://docs.devexpress.com/AspNetMvc/7896/aspnet-mvc-extensions) to implement a custom PDF viewer. This PDF viewer displays a PDF document's content as images and allows users to navigate through document pages.
+
+> You need an active license for the [DevExpress Office File API Subscription](https://www.devexpress.com/products/net/office-file-api/) or [DevExpress Universal Subscription](https://www.devexpress.com/subscriptions/universal.xml) to use the **Office File API** library in production code.
 
 ![PDF viewer control](pdf-viewer-control.png)
 
@@ -31,13 +33,9 @@ Opens a document in the PDF viewer after a user uploads the PDF document to the 
 <!-- default file list -->
 ## Files to Look At
 
-* [HomeController.cs](./CS/E5101/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E5101/Controllers/HomeController.vb))
-* **[PdfViewerController.cs](./CS/E5101/Controllers/PdfViewerController.cs) (VB: [PdfViewerController.vb](./VB/E5101/Controllers/PdfViewerController.vb))**
+* [PdfViewerController.cs](./CS/E5101/Controllers/PdfViewerController.cs) (VB: [PdfViewerController.vb](./VB/E5101/Controllers/PdfViewerController.vb))
 * [PdfPageModel.cs](./CS/E5101/Models/PdfPageModel.cs) (VB: [PdfPageModel.vb](./VB/E5101/Models/PdfPageModel.vb))
-* [_CallbackPanelPartial.cshtml](./CS/E5101/Views/Home/_CallbackPanelPartial.cshtml)
-* [Index.cshtml](./CS/E5101/Views/Home/Index.cshtml)
 * [_DocumentViewPartial.cshtml](./CS/E5101/Views/PdfViewer/_DocumentViewPartial.cshtml)
-* [_PdfViewerPartial.cshtml](./CS/E5101/Views/PdfViewer/_PdfViewerPartial.cshtml)
 <!-- default file list end -->
 
 ## Documentation
