@@ -1,0 +1,18 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm("PdfUploadControlForm", "UploadControl", FormMethod.Post)) {
+    @Html.DevExpress().UploadControl(settings => {
+	    settings.Name = "PdfUploadControl";
+	    settings.CallbackRouteValues = new { Controller = "Home", Action = "PdfUploadControlUpload" };
+		
+        settings.UploadMode = UploadControlUploadMode.Auto;
+        settings.Width = System.Web.UI.WebControls.Unit.Pixel(288);
+        settings.ShowUploadButton = true;    
+		
+	    settings.ValidationSettings.Assign(E5101.Controllers.HomeControllerPdfUploadControlSettings.ValidationSettings);
+        settings.ClientSideEvents.FileUploadComplete = "function(s, e) { if (e.isValid) { CallbackPanel.PerformCallback(); } }";
+	}).GetHtml()
+}
+
+@Html.Action("CallbackPanelPartial")
