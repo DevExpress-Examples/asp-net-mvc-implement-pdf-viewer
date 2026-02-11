@@ -48,7 +48,7 @@ Opens a document in the PDF viewer after a user uploads the PDF document to the 
 
 - [PDF Document API for ASP.NET Web Forms - How to implement a PDF viewer](https://supportcenter.devexpress.com/ticket/details/e5095/pdf-document-api-for-asp-net-web-forms-how-to-implement-a-pdf-viewer)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-implement-pdf-viewer&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-implement-pdf-viewer&~~~was_helpful=no)
 
